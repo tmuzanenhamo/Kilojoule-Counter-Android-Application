@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calculator2">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_alignParentTop="true"
+        android:text="Calculator"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/breakFastwrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title">
+        <TextView
+            android:id="@+id/breakFastText"
+            android:text="Breakfast"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            />
+        <EditText
+            android:id="@+id/breakFastEditText"
+            android:layout_width="00dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textSize="30sp"
+            android:ems="10"
+            android:inputType="none|number|numberDecimal" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LunchWrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/breakFastwrap">
+        <TextView
+            android:id="@+id/lunchText"
+            android:text="Lunch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            />
+        <EditText
+            android:id="@+id/lunchEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textSize="30sp"
+            android:ems="10"
+            android:inputType="none|number|numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dinnerWrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LunchWrap">
+        <TextView
+            android:id="@+id/dinnerText"
+            android:text="Dinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            />
+        <EditText
+            android:id="@+id/dinnerEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textSize="30sp"
+            android:ems="10"
+            android:inputType="none|number|numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/GymWrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dinnerWrap">
+        <TextView
+            android:id="@+id/GymText"
+            android:text="Gym"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            />
+        <EditText
+            android:id="@+id/GymEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textSize="30sp"
+            android:ems="10"
+            android:inputType="none|number|numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sportsWrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GymWrap">
+        <TextView
+            android:id="@+id/sportsText"
+            android:text="Sports"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            />
+        <EditText
+            android:id="@+id/sportsEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textSize="30sp"
+            android:ems="10"
+            android:inputType="none|number|numberDecimal" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/JoggingWrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sportsWrap">
+        <TextView
+            android:id="@+id/JoggingText"
+            android:text="Jogging"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            />
+        <EditText
+            android:id="@+id/JoggingEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textSize="30sp"
+            android:ems="10"
+            android:inputType="none|number|numberDecimal" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/DatesWrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/JoggingWrap">
+        <TextView
+            android:id="@+id/DatesText"
+            android:text="Date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            />
+        <EditText
+            android:id="@+id/DatesEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textSize="30sp"
+            android:ems="10"
+            android:inputType="none|number|numberDecimal" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/FoodWrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DatesWrap">
+        <TextView
+            android:id="@+id/TotalFoodText"
+            android:text="Food Total"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_marginLeft="25dp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ExcerciseWrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FoodWrap">
+        <TextView
+            android:id="@+id/ExcerciseFoodText"
+            android:text="Excercise Total"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_marginLeft="12dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/NettWrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ExcerciseWrap">
+        <TextView
+            android:id="@+id/NettFoodText"
+            android:text="Nett Total"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_marginLeft="25dp"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonWrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/NettWrap">
+
+
+        <Button
+            android:id="@+id/AddButton"
+            android:layout_width="0dp"
+            android:layout_height="80.0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Add"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/SaveButton"
+            android:layout_width="0dp"
+            android:layout_height="80.0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:text="Save"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="5dp" />
+        <Button
+            android:id="@+id/ExitButton"
+            android:layout_width="0dp"
+            android:layout_height="80.0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:text="Exit"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

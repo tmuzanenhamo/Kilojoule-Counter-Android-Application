@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Compteur Kilojoule</string>
+    <string name="title_activity_calculator2">Calculatrice ouverte</string>
+    <string name="title_activity_display">Activité d\'affichage</string>
+    <string name="open_calc">" Calculatrice ouverte"</string>
+    <string name="totalNKI">Total des consommations NKI</string>
+    <string name="averageNKI">" NKI moyen consommé par jour"</string>
+    <string name="calc_title">calculatrice</string>
+    <string name="breakfast">Petit déjeuner</string>
+    <string name="date">" l' date"</string>
+    <string name="dinner">" Dîner"</string>
+    <string name="excerciseT">Exercice totale</string>
+    <string name="exitBtn">Sortie</string>
+    <string name="foodT">Total alimentaire</string>
+    <string name="gym">Gym</string>
+    <string name="jogging">le jogging</string>
+    <string name="netT">le déjeuner</string>
+    <string name="lunch">" le déjeuner"</string>
+    <string name="addBtn">ajouter</string>
+    <string name="saveBtn">sauvegarder</string>
+    <string name="sports">Des sports</string>
+    <string name="nxtBtn">Prochaine</string>
+    <string name="prevBtn">précédent</string>
+    <string name="AverageMain">NKI moyen consommé par jour</string>
+    <string name="TotalMain">Consommation totale de NKI</string>
+    <string name="openingCalc">" Calculateur d'ouverture"</string>
+    <string name="kiloCou">" Compteur Kilojoule"</string>
+    <string name="totalConsump">Consommation quotidienne totale</string>
+    <string name="NextClick">" Suivant cliqué"</string>
+    <string name="netNKI">" Pas de nourriture NKI"</string>
+    <string name="totalFood">" Total des aliments consommés"</string>
+    <string name="totalExcercise">" Total des exercices"</string>
+    <string name="addCli">Add Clicked</string>
+    <string name="totalD">" Consommation quotidienne totale:"</string>
+    <string name="returnBtn">Sortie</string>
+    <string name="calcBtn">" Calculatrice"</string>
+
+</resources>

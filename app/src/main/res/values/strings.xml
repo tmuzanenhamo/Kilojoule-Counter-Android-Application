@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Kilojoule Counter</string>
+    <string name="title_activity_display">displayActivity</string>
+    <string name="title_activity_dummy" translatable="false">dummy</string>
+    <string name="title_activity_calculator2">calculator2</string>
+    <string name="open_calc">Open Calculator</string>
+    <string name="totalNKI">Total NKI Consumptions</string>
+    <string name="averageNKI">Average NKI consumed per day</string>
+    <string name="calc_title">Calculator</string>-
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="gym">Gym</string>
+    <string name="sports">Sports</string>
+    <string name="jogging">Jogging</string>
+    <string name="date">Date</string>
+    <string name="foodT">Food Total</string>
+    <string name="excerciseT">Exercise Total </string>
+    <string name="netT">Net Total</string>
+    <string name="addBtn">Add</string>
+    <string name="saveBtn">Save</string>
+    <string name="exitBtn">Exit</string>
+    <string name="nxtBtn">Next</string>
+    <string name= "prevBtn">Previous</string>
+    <string name="AverageMain">Average NKI consumed per day</string>
+    <string name="TotalMain">Total NKI consumption</string>
+    <string name="openingCalc">Opening Calculator</string>
+    <string name="kiloCou">Kilojoule Counter</string>
+    <string name="NextClick">Next Clicked</string>
+    <string name="totalConsump">Total daily consumption</string>
+    <string name="totalFood">Total Food consumed </string>
+    <string name="totalExcercise">Total Excercises </string>
+    <string name="netNKI">Net Food NKI </string>
+    <string name="addCli">Add Clicked</string>
+    <string name="totalD">Total daily consumption</string>
+    <string name="returnBtn">Exit</string>
+    <string name="calcBtn">Calculator</string>
+</resources>
